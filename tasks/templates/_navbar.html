@@ -32,6 +32,10 @@
         <li class="nav-item">
           <a class="nav-link" href="/logout">Cerrar Sesión</a>
         </li>
+        <!-- Mostrar el ID del usuario -->
+        <li class="nav-item">
+          <span class="nav-link text-light">ID: {{ user.id }}</span>
+        </li>
         {% else %}
         <li class="nav-item">
           <a href="/signin" class="nav-link">Iniciar Sesión</a>
